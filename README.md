@@ -1,4 +1,4 @@
-# Notion Project Icon
+# Notion Page Icon
 
 Generate 280x280px colored SVG to be used as [Notion](https://www.notion.so) page icon.
 
