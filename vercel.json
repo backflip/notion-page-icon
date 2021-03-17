@@ -1,0 +1,4 @@
+{
+  "redirects": [{ "source": "/", "destination": "/icon.svg" }],
+  "rewrites": [{ "source": "/icon.svg", "destination": "/api" }]
+}

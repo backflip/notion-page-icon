@@ -1,0 +1,25 @@
+{
+  "name": "notion-page-icon",
+  "version": "1.0.0",
+  "description": "Generate colored SVG",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*.js --verbose",
+    "format": "prettier --write {,**/}*.{js,md}",
+    "lint": "eslint --fix {,**/}*.js"
+  },
+  "author": "Thomas Jaggi <thomas@responsive.ch> (https://github.com/backflip)",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "eslint": "^7.22.0",
+    "esm": "^3.2.25",
+    "prettier": "^2.2.1",
+    "vercel": "^21.3.3"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}
